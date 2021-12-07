@@ -1,0 +1,179 @@
+body {
+    background: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    clear: both;
+}
+footer {
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    clear: both;
+    padding-top: 20px;
+}
+a:hover {
+    opacity: 0.7;
+}
+h1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright {
+    text-align: center;
+    font-size: 8px;
+}
+img.line {
+    width: 100%;
+}
+.jumbotron {
+    background: url('001.png') no-repeat center center;
+    width:100%;
+    height: 0vh;
+    background-size: 100%;
+    min-height: 15vh;
+    }
+.logo {
+    display: block;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    object-fit: contain;
+     }
+.navbar {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,1)) 100%;
+    border-bottom: none;   
+}
+.navbar-fixed-top .active a { 
+    background: linear-gradient(0deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,1)) 100% !important;  
+}
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 6px 10px;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.footertop {
+    background-image: url(line.png);
+    background-repeat: repeat-x;
+    height: 100px;
+}
+.container-sm {
+    background-color: rgb(44, 42, 42);
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: blanchedalmond;
+    overflow: hidden;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+  }
+
+#myCarousel {
+    max-width: 100%;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#myCarousel2 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner {
+    max-width: 700px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.item {
+    max-height: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item .active {
+    max-height: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.topbox {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hbss {
+        max-height: 400px;
+        margin-right: auto;
+        margin-left: auto;
+}
+.infoboxx {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+#main {
+    overflow: auto;
+    padding-bottom: 150px;
+}
+#wrap {
+    min-height: 100%;
+}
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
